@@ -2484,7 +2484,9 @@
 			}
 
 	body.index #main {
-		padding-top: 5em;
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
 	}
 
 /* CTA */
@@ -2802,7 +2804,10 @@
 					}
 
 			body.index #main {
-				padding-top: 4.5em;
+				padding-top: 0.5em;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
+
 			}
 
 		/* CTA */
@@ -3143,7 +3148,9 @@
 			}
 
 			body.index #main {
-				padding: 2.5em 0 0 0;
+				/*padding: 2.5em 0 0 0;*/
+                padding: 0.5em 0.5em 0.5em 0.5em;
+
 			}
 
 			body.contact #main {

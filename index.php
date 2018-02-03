@@ -18,33 +18,7 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header" class="alt">
-					<nav id="nav">
-						<ul>
-                            <li class="current"><a href="index.html">About Ben</a></li>
-                            <li class="current"><a href="index.html">In the News</a></li>
-                            <li class="current"><a href="index.html">Get Involved</a></li>
-                            <li class="current"><a href="index.html">Events</a></li>
-
-                            <li class="submenu">
-                                <a href="#">Issues</a>
-                                <ul>
-                                    <li><a href="left-sidebar.html">Public Health</a></li>
-                                    <li><a href="right-sidebar.html">Electoral Reform</a></li>
-                                    <li><a href="no-sidebar.html">Health Care</a></li>
-                                    <li><a href="contact.html">The Environment</a></li>
-                                    <li><a href="contact.html">Agriculture</a></li>
-                                    <li><a href="contact.html">Education</a></li>
-                                    <li><a href="contact.html">Economic Reform</a></li>
-
-                                </ul>
-                            </li>
-
-
-					<!--		<li><a href="#" class="button special">Sign Up</a></li> -->
-						</ul>
-					</nav>
-				</header>
+            <?php include("header.html"); ?>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -87,13 +61,6 @@
 				</section>
 
 			<!-- Main -->
-            <article id="main">
-                    <p>I’m a lifelong resident of Mahomet, Illinois, and I’m running for State Senate because I believe that now is a time to challenge the status quo. The old model of politics is, well, old. It’s time for an update. We need a modern day electoral system, we need a revamped healthcare system, and we need forward-looking educational policies. Our great state of Illinois is in trouble and we need new ideas to fix it.</p>
-                    
-                    <p>Though I’m currently a college student studying nutrition, I’ve had the pleasure of taking roles in communities such as an organizer or as a political activist. This is the first time I’ve ever run for public office and I’m looking forward to the challenge.</p>
-                </article>
-
-
 <!--                <article id="main">-->
 <!---->
 <!--                    <header class="special container">-->
@@ -255,18 +222,7 @@
 <!--                </section>-->
 
 			<!-- Footer -->
-				<footer id="footer">
-
-					<ul class="icons">
-						<li><a href="https://twitter.com/ElectBenChapman/" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/ElectBenChapman/" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-					</ul>
-
-					<ul class="copyright">
-						<li>&copy; Benjamin Chapman for Illinois State Senate 2018</li>
-					</ul>
-
-				</footer>
+        <?php include("footer.html"); ?>
 
 		</div>
 
