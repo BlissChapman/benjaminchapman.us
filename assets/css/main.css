@@ -2397,7 +2397,7 @@
 		background-color: #645862;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
 		cursor: default;
@@ -2484,7 +2484,11 @@
 			}
 
 	body.index #main {
-		padding-top: 5em;
+        padding-top: 3.5em;
+        padding-left: 9.5em;
+        padding-right: 9.5em;
+        padding-bottom: 3.5em;
+
 	}
 
 /* CTA */
@@ -2802,7 +2806,11 @@
 					}
 
 			body.index #main {
-				padding-top: 4.5em;
+                padding-top: 2.5em;
+                padding-left: 4.5em;
+                padding-right: 4.5em;
+                padding-bottom: 2.5em;
+
 			}
 
 		/* CTA */
@@ -3143,7 +3151,10 @@
 			}
 
 			body.index #main {
-				padding: 2.5em 0 0 0;
+                padding-top: 2.5em;
+                padding-left: 4.5em;
+                padding-right: 4.5em;
+                padding-bottom: 2.5em;
 			}
 
 			body.contact #main {
