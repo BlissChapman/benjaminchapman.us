@@ -2395,7 +2395,7 @@ a {
 	}
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, scroll;
+		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
@@ -2702,7 +2702,7 @@ a {
 		display: none;
 	}
 
-	@media screen and (max-width: 840px) {
+	@media screen and (max-width: 795px) {
 
 		/* Basic */
 
@@ -2773,7 +2773,18 @@ a {
 		/* Header */
 
 			#header {
-				display: none;
+				/* display: none; */
+                background: #fff;
+                box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
+                color: inherit;
+                cursor: default;
+                font-size: 0.8em;
+                left: 0;
+                padding: 1em 1.5em;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10000;
 			}
 
 		/* Banner */
